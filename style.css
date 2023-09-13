@@ -2,9 +2,11 @@ body{
         background-color:rgb(24, 22, 22);
         color:dimgray;
         text-align: center;
+        letter-spacing: .2rem;
     }
 p{
     font-size: 23px;
+    letter-spacing: .1px;
     color:dimgray;
 }
 
@@ -59,4 +61,8 @@ spam{
     font-style:normal; 
     color:rgba(119, 25, 25, 0.788);  
 
+}
+.lies{
+    margin-top: 5rem;
+    font-size: 45px;
 }
