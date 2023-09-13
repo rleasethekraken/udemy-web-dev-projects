@@ -20,14 +20,10 @@ h1, h2{
     font-weight: 400;
 }
 
-h1 h2 a:link{
-    color:rgba(145, 0, 0, 0.788);     
-    text-decoration: none; 
-}
 
 h3 a:link{
     color:dimgray;
-    text-decoration: none; 
+    text-decoration: underline;
 }
 
 
@@ -40,20 +36,25 @@ a:hover{
     font-style: italic;
     text-decoration: none;
 }
-
 a:visited{
     color:rgba(94, 0, 0, 0.815);    
 }
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-
 spam{
     font-size: 18px;
     font-weight: 200;
     font-style: italic; 
     color:rgba(119, 25, 25, 0.788);     
+}
+
+.sections{
+    font-weight: 600;
+    font-style:normal; 
+
 }
