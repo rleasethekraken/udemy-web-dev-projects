@@ -1,34 +1,41 @@
-body,p{
+body{
         background-color:rgb(24, 22, 22);
         color:dimgray;
-        font-weight: normal;
         text-align: center;
     }
+p{
+    font-size: 23px;
+    color:dimgray;
+}
 
-h1,h3{
+hr{
+    height: 1px; 
+    background-color:rgba(54, 48, 48, 0.74) ;
+    border: none;
+}
+
+h1,h2{
     text-align: center;
+    color:rgba(145, 0, 0, 0.788);     
+    font-weight: 400;
+}
+
+h3 {
+    color:dimgray;
+    font-weight: 600;
+}
+
+a:link{
     color:rgba(145, 0, 0, 0.788);     
     text-decoration: none; 
 }
 
-h2 {
-    color:dimgray;
-    text-align: center;
-    font-weight: 100;
-
+a:hover{
+    font-style: italic;
+    text-decoration: none;
 }
 
 
-h3 a.projectTitles{
-    color: aliceblue;
-}
-
-
-hr{
-    height: 1px;
-    background-color:rgba(54, 48, 48, 0.74) ;
-    border: none;
-}
   
 .center {
     display: block;
@@ -36,15 +43,6 @@ hr{
     margin-right: auto;
 }
 
-a:link {
-    color:dimgray;  
-    text-decoration: none;  
-}
-
-a:hover{
-    color:rgba(192, 0, 0, 0.788);     
-    text-decoration: underline;
-}
 
 spam{
     font-weight: 200;
