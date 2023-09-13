@@ -47,14 +47,16 @@ a:visited{
 }
 
 spam{
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 200;
     font-style: italic; 
-    color:rgba(119, 25, 25, 0.788);     
+    color: dimgrey;
+       
 }
 
 .sections{
     font-weight: 600;
     font-style:normal; 
+    color:rgba(119, 25, 25, 0.788);  
 
 }
